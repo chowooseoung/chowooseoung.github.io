@@ -5,11 +5,15 @@ excerpt: "module rig"
 toc: true
 toc_sticky: true
 
+breadcrumbs: true
+
 categories:
   - rigging
 tags:
-  - mgear
-  - mbox
+  - [mgear, mbox]
+
+date: 2021-12-18
+last_modified_at: 2021-12-19
 ---
 
 #### [mbox](https://github.com/chowooseoung/mbox)
