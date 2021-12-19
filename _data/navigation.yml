@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "Category"
+  - title: "포트폴리오"
     url: /categories/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "카테고리"
+    url: /categories/
+  - title: "태그"
+    url: /tags/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
