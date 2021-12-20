@@ -11,9 +11,10 @@ breadcrumbs: true
 categories:
    - vim 
 tags:
-   - vim-plugin
+   - [vim-plugin, blog]
 
 date: "2021-12-20 12:25:42 +0900"
+last_modified_at: "2021-12-20"
 ---
 
 #### parkr/vim-jekyll plugin
