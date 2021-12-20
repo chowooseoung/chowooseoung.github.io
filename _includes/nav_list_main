@@ -20,13 +20,38 @@
 							<li><a href="/categories/rigging" class="">rigging ({{category[1].size}})</a></li>
 						{% endif %}
 			                {% endfor %}</ul>
+                <ul>{% for category in site.categories %}
+						{% if category[0] == "maya" %}
+							<li><a href="/categories/maya" class="">vim ({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endfor %}</ul>
+                <ul>{% for category in site.categories %}
+						{% if category[0] == "blender" %}
+							<li><a href="/categories/blender" class="">vim ({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endfor %}</ul>
 			<span class="nav__sub-title">Programming</span>
 				<ul>{% for category in site.categories %}
 						{% if category[0] == "vim" %}
 							<li><a href="/categories/vim" class="">vim ({{category[1].size}})</a></li>
-						{% endif %}
-					{% endfor %}</ul>
-		</li>
+                        {% endif %}
+                    {% endfor %}</ul>
+                <ul>{% for category in site.categories %}
+						{% if category[0] == "c" %}
+							<li><a href="/categories/c" class="">vim ({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endfor %}</ul>
+                <ul>{% for category in site.categories %}
+						{% if category[0] == "cpp" %}
+							<li><a href="/categories/cpp" class="">vim ({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endfor %}</ul>
+                <ul>{% for category in site.categories %}
+						{% if category[0] == "python" %}
+							<li><a href="/categories/python" class="">vim ({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endfor %}</ul>
+        </li>
 	</ul>
 </nav>
 
