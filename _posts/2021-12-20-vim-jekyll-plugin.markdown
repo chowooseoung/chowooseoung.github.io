@@ -21,4 +21,5 @@ last_modified_at: "2021-12-20"
 --- 
 
 * 사용법 
-    [vim-jekyll github](https://github.com/parkr/vim-jekyll#commands)
+    [vim-jekyll github](https://github.com/parkr/vim-jekyll#commands)  
+    `!Jserve`
