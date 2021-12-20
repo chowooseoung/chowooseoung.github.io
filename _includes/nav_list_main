@@ -1,32 +1,31 @@
 {% assign sum = site.posts | size %}
 
 <nav class="nav__list">
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
-  <ul class="nav__items" id="category_tag_menu">
-      <li>
-      <br>
-            📂 전체 글 수 {{sum}}개 
-      </li>
-      <li>
-        <span class="nav__sub-title">VFX</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "rigging" %}
-                        <li><a href="/categories/vim" class="">rigging ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-	<span class="nav__sub-title">Programming</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "vim" %}
-                        <li><a href="/categories/vim" class="">vim ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-     </li>
-      <li>	
-            <br>      
-  </ul>
+	<input id="ac-toc" name="accordion-toc" type="checkbox" />
+	<label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+	<ul class="nav__items" id="category_tag_menu">
+		<li>
+		<br>
+			📂 전체 글 수 {{sum}}개
+		</li>
+		<li>
+			<span class="nav__sub-title">VFX</span>
+				<ul>
+					{% for category in site.categories %}
+						{% if category[0] == "rigging" %}
+							<li><a href="/categories/rigging" class="">rigging ({{category[1].size}})</a></li>
+						{% endif %}
+			                {% endfor %}
+				</ul>
+			<span class="nav__sub-title">Programming</span>
+				<ul>
+					{% for category in site.categories %}
+						{% if category[0] == "vim" %}
+							<li><a href="/categories/vim" class="">vim ({{category[1].size}})</a></li>
+						{% endif %}
+					{% endfor %}
+				</ul>
+		</li>
+	</ul>
 </nav>
+
