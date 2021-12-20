@@ -1,6 +1,5 @@
 ---
 title: "modeling-test"
-date: "2021-12-20 13:18:13 +0900"
 excerpt: ""
 
 toc: true

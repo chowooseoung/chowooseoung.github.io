@@ -12,7 +12,7 @@
             <span class="nav__sub-title">VFX</span>
                 <ui>{% for category in site.categories %}
 						{% if category[0] == "modeling" %}
-							<li><a href="/categories/modeling" class="">rigging ({{category[1].size}})</a></li>
+							<li><a href="/categories/modeling" class="">modeling ({{category[1].size}})</a></li>
 						{% endif %}
 			                {% endfor %}</ui>    
 				<ul>{% for category in site.categories %}
@@ -22,12 +22,12 @@
 			                {% endfor %}</ul>
                 <ul>{% for category in site.categories %}
 						{% if category[0] == "maya" %}
-							<li><a href="/categories/maya" class="">vim ({{category[1].size}})</a></li>
+							<li><a href="/categories/maya" class="">maya ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}</ul>
                 <ul>{% for category in site.categories %}
 						{% if category[0] == "blender" %}
-							<li><a href="/categories/blender" class="">vim ({{category[1].size}})</a></li>
+							<li><a href="/categories/blender" class="">blender ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}</ul>
 			<span class="nav__sub-title">Programming</span>
@@ -38,17 +38,17 @@
                     {% endfor %}</ul>
                 <ul>{% for category in site.categories %}
 						{% if category[0] == "c" %}
-							<li><a href="/categories/c" class="">vim ({{category[1].size}})</a></li>
+							<li><a href="/categories/c" class="">c ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}</ul>
                 <ul>{% for category in site.categories %}
 						{% if category[0] == "cpp" %}
-							<li><a href="/categories/cpp" class="">vim ({{category[1].size}})</a></li>
+							<li><a href="/categories/cpp" class="">cpp ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}</ul>
                 <ul>{% for category in site.categories %}
 						{% if category[0] == "python" %}
-							<li><a href="/categories/python" class="">vim ({{category[1].size}})</a></li>
+							<li><a href="/categories/python" class="">python ({{category[1].size}})</a></li>
                         {% endif %}
                     {% endfor %}</ul>
         </li>
