@@ -9,22 +9,23 @@
 			📂 전체 글 수 {{sum}}개
 		</li>
 		<li>
-			<span class="nav__sub-title">VFX</span>
-				<ul>
-					{% for category in site.categories %}
+            <span class="nav__sub-title">VFX</span>
+                <ui>{% for category in site.categories %}
+						{% if category[0] == "modeling" %}
+							<li><a href="/categories/modeling" class="">rigging ({{category[1].size}})</a></li>
+						{% endif %}
+			                {% endfor %}</ui>    
+				<ul>{% for category in site.categories %}
 						{% if category[0] == "rigging" %}
 							<li><a href="/categories/rigging" class="">rigging ({{category[1].size}})</a></li>
 						{% endif %}
-			                {% endfor %}
-				</ul>
+			                {% endfor %}</ul>
 			<span class="nav__sub-title">Programming</span>
-				<ul>
-					{% for category in site.categories %}
+				<ul>{% for category in site.categories %}
 						{% if category[0] == "vim" %}
 							<li><a href="/categories/vim" class="">vim ({{category[1].size}})</a></li>
 						{% endif %}
-					{% endfor %}
-				</ul>
+					{% endfor %}</ul>
 		</li>
 	</ul>
 </nav>
