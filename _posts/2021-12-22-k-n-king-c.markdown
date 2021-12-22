@@ -9,7 +9,7 @@ toc_label: 목차
 breadcrumbs: true
 
 categories:
-  - C
+  - c 
 tags:
   - [KNK]
 
