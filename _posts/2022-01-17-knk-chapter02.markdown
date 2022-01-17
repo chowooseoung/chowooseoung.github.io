@@ -11,7 +11,7 @@ breadcrumbs: true
 categories:
    - c 
 tags:
-   - KNK
+   - [KNK]
 
 date: "2022-01-17 11:54:31 +0900"
 ---
@@ -34,7 +34,7 @@ date: "2022-01-17 11:54:31 +0900"
     ///예제 
     scanf("%f", &value)
     ```
-
+  
 #### 문제
 - 정답 : [knk](http://knking.com/books/c2/answers/index.html)
 
