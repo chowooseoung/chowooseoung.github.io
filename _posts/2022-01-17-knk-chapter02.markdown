@@ -1,0 +1,43 @@
+---
+layout: post
+title: "knk chapter02"
+date: "2022-01-17 11:54:31 +0900"
+excerpt: "챕터2 키워드 간단히 정리"
+
+toc: true
+toc_sticky: true
+toc_label: 목차
+
+breadcrumbs: true
+
+categories:
+   - c 
+tags:
+   - KNK
+
+date: "2022-01-17 11:54:31 +0900"
+---
+
+#### macro 
+--- 
+- 
+    ```c
+    #define 변수명 값
+    ///예제
+    #define PRICE 32
+    #define PI (1.0f / 3.14f)
+    ```
+- 컴파일 시 전처리기가 매크로를 값으로 변경.  
+
+#### scanf
+- 
+    ```c
+    scanf("%f", &변수)
+    ///예제 
+    scanf("%f", &value)
+    ```
+
+# 문제
+- 정답 : [knk](http://knking.com/books/c2/answers/index.html)
+
+
