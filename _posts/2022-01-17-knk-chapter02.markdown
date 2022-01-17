@@ -1,7 +1,5 @@
 ---
-layout: post
 title: "knk chapter02"
-date: "2022-01-17 11:54:31 +0900"
 excerpt: "챕터2 키워드 간단히 정리"
 
 toc: true
